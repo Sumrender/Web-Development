@@ -1,0 +1,12 @@
+<img class="fit-picture"
+     src="01 HTML - Personal Site\dp.png"
+     alt="Display Picture of Sumrender Singh"
+     height = 33
+     width = 33>
+
+     height and width values are added without units in pixels,
+     better to just use CSS for resize and other customizations
+
+This tag is used to insert images to the webpage.
+
+alt ="insert alternate text here"

@@ -1,0 +1,28 @@
+<table>: The Table element
+
+The <table> represents tabular data — that is, information presented in a
+two-dimensional table comprised of rows and columns of cells containing data.
+
+We also need to use <tr> and <td> tags along with table tag, to make use of Table
+element properly. For data entry it is good,
+
+NOT GOOD for placing layout of website using table, too much error prone.
+Better to use Display property of CSS.
+
+also, <th>Name</th>  //table heading tag
+
+<table>                        output: Python  ⭐⭐⭐
+  <tr>                                  C++     ⭐⭐
+    <td>Python</td>                     Java    ⭐⭐
+    <td>⭐⭐⭐</td>
+  </tr>
+  <tr>
+    <td>C++</td>
+    <td>⭐⭐</td>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>⭐⭐</td>
+  </tr>
+</tr>
+</table>

@@ -1,0 +1,22 @@
+lists: are of two types - ordered <ol> and unordered lists <ul>
+       requires closing tags
+       li stands for list items
+eg.
+       <ul>
+         <li>IT Second Year</li>
+         <li>Schools India</li>
+       </ul>
+       for ordered lists replace <ul> with <ol>
+
+some attributes:
+
+      eg. start=5  // to start the list from 7
+          type="i or I or A or a" // for roman numerals
+
+<dl> Tag
+    <dl>    //description list
+    <dt>Coffee</dt> // define term
+    <dd>Black hot drink</dd>  //define description
+    <dt>Milk</dt>
+    <dd>White cold drink</dd>
+    </dl>

@@ -1,0 +1,30 @@
+To display a picture, it is better to use the <img> tag.
+
+To display HTML, it is better to use the <iframe> tag.
+
+To display video or audio, it is better to use the <video> and <audio> tags.
+
+iframes are html documents embedded in another html documents like
+advertisements or youtube videos.
+
+they are inline elements
+
+<iframe name="myFrameName"
+        src="anyLink"
+        width="100%"
+        height="300"
+        frameborder="1">
+</iframe>
+
+the frame name can be given to anchor tag 'target' attribute to open the site
+in a frame.
+
+For including youtube videos, just go to youtube page, select the video, there
+is code of copying iframe embed code somewhere, look for it and copy-paste it
+to your site
+
+<embed>
+The <embed> tag defines a container for an external resource, such as a web
+page, a picture, a media player, or a plug-in application.
+
+<embed type="video/webm" src="video.mp4" width="400" height="300">

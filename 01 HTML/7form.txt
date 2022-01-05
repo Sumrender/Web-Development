@@ -1,0 +1,33 @@
+            Check 7form.html for example
+
+<form>
+The <form> HTML element represents a document section containing interactive
+controls for submitting information.
+
+<!-- Form which will send a GET request to the current URL -->
+<form>
+  <label>Name:
+    <input name="submitted-name" autocomplete="name">
+  </label>
+  <button>Save</button>
+</form>
+
+The method attribute specifies how to send form-data
+(the form-data is sent to the page specified in the action attribute).
+
+The form-data can be sent as
+    URL variables (with method="get")
+    or
+    as HTTP post transaction (with method="post").
+
+Notes on GET:
+Appends form-data into the URL in name/value pairs
+The length of a URL is limited (about 3000 characters)
+Never use GET to send sensitive data! (will be visible in the URL)
+Useful for form submissions where a user wants to bookmark the result
+GET is better for non-secure data, like query strings in Google
+
+Notes on POST:
+Appends form-data inside the body of the HTTP request (data is not shown in URL)
+Has no size limitations
+Form submissions with POST cannot be bookmarked

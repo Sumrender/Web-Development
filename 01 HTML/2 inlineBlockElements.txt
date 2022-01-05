@@ -1,0 +1,10 @@
+elements either have inline or block orientation.
+
+for example: h1 to h6, p tags are block elements, i.e. they take
+all the width of their row.
+
+Whereas inline elements like anchor and image tag only take as much width as
+required.
+
+If you see inline elements on a new line, then it should be due to then
+block elements above or below them.

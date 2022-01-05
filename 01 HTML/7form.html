@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Practice Form</title>
+    </head>
+    <body>
+        <form class="market" action="index.html" method="post">
+
+            <label for="address">Address:
+            <input type="text" name="address" placeholder="address"></label>
+
+            <label for="city">City:
+            <input type="text" name="city" placeholder="city"></label>
+
+            <p>Choose your shipping method</p>
+            <select class="shipping" name="shipping" >
+                <option value="Free Shipping">Free Shipping</option>
+                <option value="Two-Day Shipping">Two-Day Shipping</option>
+                <option value="One-Day Shipping">One-Day Shipping</option>
+            </select>
+            <p>Choose your Payment method</p>
+            <label for="payment">
+                Paytm<input type="radio" name="payment" value="paytm">
+            </label>
+            <label for="payment">
+                Debit Card<input type="radio" name="payment" value="debit">
+            </label>
+            <label for="payment">
+                Credit Card<input type="radio" name="payment" value="credit">
+            </label>
+            <br>
+            <!-- -------------------Text Area--------------------- -->
+            <label for="comments">
+                <textarea name="comments" rows="8" cols="80">
+                    Tell us your thoughts
+                </textarea>
+            </label>
+            <br>
+            <label for="news">Recieve Regular Updates
+                <input type="checkbox" name="news" checked="checked">
+            </label>
+            <br><br>
+            <input type="submit" value="SUBMIT to me">
+
+
+
+
+        </form>
+
+    </body>
+</html>

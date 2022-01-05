@@ -1,0 +1,28 @@
+For web development 3 languages are paramount:
+    HTML: for content only
+    CSS: style
+    JavaScript: behavior
+
+HTML - Hyper Text Markup Language
+It is the structure of the website.
+
+Elements:
+    There are various html elements available to us to define the structure of
+    the website. Elements or tags may be self-closing or may require closing
+    tag.
+Attributes:
+    Attributes are written inside starting tags to personalize the elements
+    according to our needs.
+    eg. <hr size=3>
+
+Boilerplate:
+    The Boilerplate can be accessed just be writing ht and press center
+    in the atom editor after package installation.
+
+header: contains info, including title, all the meta data, viewport info
+        and the links which allow to link css files with the html code
+
+        link is a self-closing tag and is mostly used inside head element, and is
+        used to link CSS files,
+                frameworks and libraries using CDN
+                favicon, where rel="icon"
