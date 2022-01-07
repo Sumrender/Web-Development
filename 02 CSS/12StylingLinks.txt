@@ -1,0 +1,15 @@
+a:link{
+    color: #2a8e1f;
+}
+
+a:hover{
+    font-size: 3em;
+}
+
+.bluebox{
+    background-color: #3A5795; color: white; height: 100px; width:auto;
+}
+
+div.bluebox a:active {
+    font-size: 4em;
+}

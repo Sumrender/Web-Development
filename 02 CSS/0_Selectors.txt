@@ -1,0 +1,14 @@
+very important list for reference
+
+https://www.w3schools.com/cssref/css_selectors.asp
+
+Combinators
+
+All CSS Combinator Selectors
+
+Selector	          Example	             Example description
+*	                      *	        Selects all elements
+element element	        div p	    Selects all <p> elements inside <div> elements
+element>element	        div > p	    Selects all <p> elements where the parent is a <div> element
+element+element	        div + p	    Selects the first <p> element that are placed immediately after <div> elements
+element1~element2	    p ~ ul      Selects every <ul> element that are preceded by a <p> element

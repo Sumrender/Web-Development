@@ -1,0 +1,6 @@
+favicons is the icon shown in the title bar, or tab navigator in browsers
+link: favicon.io
+
+usage:
+inside head element create a link with rel="icon" and href = img addr
+also name the file favicon.ico, for convention

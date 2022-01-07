@@ -1,0 +1,11 @@
+transform: rotate(30deg);
+
+transform: translate(20px,30px); 
+
+transform: scale(0.5,1);
+
+transform: skew(10deg,10deg);
+
+----------3D-------------
+transform: rotateX(30deg);
+transform: rotateY(30deg);

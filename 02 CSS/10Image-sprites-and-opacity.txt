@@ -1,0 +1,25 @@
+Image Sprites
+
+$$$ use tool spritecow.com for making sprites easily
+
+An image sprite is a collection of images put into a single image.
+A web page with many images can take a long time to load and generates multiple server requests.
+Using image sprites will reduce the number of server requests and save bandwidth.
+
+#home {
+  width: 46px;
+  height: 44px;
+  background: url(img_navsprites.gif) 0 0;
+}
+
+<img id="home" src="img_trans.gif"> - Only defines a small transparent image
+because the src attribute cannot be empty. The displayed image will be the
+background image we specify in CSS
+
+width: 46px; height: 44px; - Defines the portion of the image we want to use
+
+background: url(img_navsprites.gif) 0 0; -
+            Defines the background image and its position (left 0px, top 0px)
+
+Image opacity: transparency
+    values range from 0 (transparent) to 1 (opaque).

@@ -1,0 +1,17 @@
+It allows for a smooth transition b/w images or elements
+
+background: linear-gradient(blue,white);
+
+background: linear-gradient(to left, blue,white,orange);
+
+background: linear-gradient(to bottom left, blue,white,orange);
+
+background: linear-gradient(90deg,blue,white,orange); 
+
+background: linear-gradient(to left,rgba(0,0,255,0.5),rgba(0,0,255,1)); 
+
+background: radialgradient(blue,white,orange); 
+
+background: radial-gradient(blue 5%,white 15%,orange 80%);
+
+background: radial-gradient(circle,blue 5%,white 15%,orange 80%);

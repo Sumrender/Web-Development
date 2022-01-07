@@ -1,0 +1,27 @@
+center text in divisions both vertically and horizontally :
+for horizontal: do text-align: center;
+for vertical: you can use css positioning
+
+
+center can be done by text-align property in body.
+************************************************
+for other elements like div use the following property:
+              margin: 0 auto;
+
+text:
+  we use font-family property.
+  there is option of fallback if the current font is not installed on visitor pc.
+  eg. body {
+              font-family: Impact, Arial, Serif;
+            }
+first pc will try to render Impact font. If that is not available then it will
+fallback to arial font. Both of these will be in Serif style.
+
+font embedding:
+  just use the font you like, but add a link in the head section which goes to
+  the link. eg. fonts.google.com
+
+font-size is commonly set using em instead of px.
+                                                                ------------------1 em = 16 px----------
+    but important factor is that it is dynamic i.e. it changes if
+    acc. to user-defined text settings of browser.

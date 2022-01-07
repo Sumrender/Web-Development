@@ -1,0 +1,16 @@
+How to Use CSS Transitions?
+To create a transition effect, you must specify two things:
+
+the CSS property you want to add an effect to
+the duration of the effect
+Note: If the duration part is not specified, the transition will have no effect, because the default value is 0.
+
+.greenbox{background-color: #31af37; 
+    height: 100px; 
+    width: 100px; 
+    transition: width 1s, height 1s, otherProperty time;
+}
+.greenbox:hover{ 
+    width: 300px; 
+    height: 300px;
+}

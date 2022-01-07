@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: monospace;
+}
+h1{
+  color: #66BFBF;
+  margin: 0 auto 0 auto;
+  font-size: 3em;
+}
+p {
+  color: #66BFBF;
+  font-size: 1.5em;
+}
+.top-container {
+    padding-top: 50px;
+    background-color:#EAF6F6;
+  }
+.middle-container{
+
+}
+.bottom-container{
+
+}
+.topCloud {
+  position: relative;
+  left: 200px;
+  bottom: 30px;
+}
+.bottomCloud {
+  position: absolute;
+}
+.dp {
+  padding-top: 40px;
+  height: 200px;
+  width: 200px;
+}
+.photo {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+
+}
+.skill-row{
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: left;
+
+}
+
+.insta {
+    padding-bottom: 3px;
+}

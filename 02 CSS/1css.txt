@@ -1,0 +1,41 @@
+CSS: Cascading Style Sheets
+
+point to note: even without using CSS ourselves, browser has some
+default css effects applied.
+
+eg. <hr> tag, as even after changing color there
+seems to be no change in the horizontal rule.
+
+many developers use, reset css files, which forcibly changes all browser CSS
+to null, so that the browser displays all the elements as developer intended
+with no change from browser
+
+PRIORITY ORDER of CSS: INLINE > INTERNAL = EXTERNAL
+for internal and external, it depends which is more below one another
+if internal is above link css tag, then
+    i) internal tag; changes color;
+    ii) but link external css file overrides the changes
+
+Inline CSS:
+eg. <body style="background-color: yellow;">
+following the above example, we can make changes Inline
+
+Internal CSS:
+This piece of code is added between the two head tags.
+<head>
+    <style>
+      body {
+        background-color:#EAF6F6;
+      }
+      hr {
+        background-color: blue;
+        border-style:dotted;
+        height: 3px;
+        width: 40%;
+      }
+    </style>
+</head>
+
+External CSS:
+to add external css, we need to creat link tag inside head element.
+<link rel="stylesheet" href="master.css">

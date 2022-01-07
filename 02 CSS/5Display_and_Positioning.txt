@@ -1,0 +1,21 @@
+The display property specifies the display behavior (the type of rendering box) of an element.
+
+In HTML, the default display property value is taken from the HTML specifications
+or from the browser/user default style sheet. The default value in XML is inline,
+including SVG elements.
+
+{display: none;}
+{display: inline;}
+{display: block;}
+{display: inline-block;} // best of both worlds, can change width
+
+______The position Property______
+The position property specifies the type of positioning method used for an element.
+
+There are five different position values:
+
+static		: all html elements are static by default
+relative		: moves element relative to its old position. top: 10px; means top se 10px dhakka matlab upar se niche
+fixed		: it always stays in the same place even if the page is scrolled. The top, right, bottom, and left properties are used to position the element.
+absolute		: moves element relative to the parent body; also removes element from flow of html
+sticky		: A sticky element toggles between relative and fixed, depending on the scroll position. It is positioned relative until a given offset position is met 		in the viewport - then it "sticks" in place (like position:fixed).
