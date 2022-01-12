@@ -1,0 +1,44 @@
+DOM: Document Object Model
+It basically catalogs the webpage into individual objects that we can
+select and manipulate.
+
+document.firstElementChild.lastElementChild.firstElementChild;
+it will take to html->body->first body element
+
+
+
+we can make changes to the html and css elements using query and then adding
+changes but it is a bad practice, since we want our javascript to only handle
+the logic/behavior.
+This is accomplished with the help of CLASSES.
+
+we can add/remove/toggle classes using javascript and this classes are written
+inside CSS file. eg:
+        document.querySelector("h1").classList.toggle("huge");
+
+Text Manipulation and Text Content property
+inside text can be accessed using innerHTML and textContent methods
+What is the difference between the two?
+    code: <p><bold>hello</bold></p>
+    document.querySelector("p").innerHTML=code;  // <bold>hello</bold>
+    document.querySelector("p").textContent=code; // hello
+
+using innerHTML, we can add tags to the html structure.
+
+Manipulating HTML Element Attributes:
+.getAttribute("href");  // gives www.google.com
+.setAttribute("href","www.bing.com")
+
+document.getElementsByTagName("li")[0];
+document.getElementsByTagName("li").length;    // find occurence of an element
+
+document.getElementsByClassName("btn")[0];
+
+document.getElementById("myID");
+
+document.querySelector("#yo");
+
+    hierarchical selections
+document.querySelector("li a");
+
+document.querySelectorAll("li")[0];

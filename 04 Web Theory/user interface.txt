@@ -1,0 +1,11 @@
+by making bold statements/ using hierarchy as users read from bigger to smaller.
+using diff colours
+using diff sizes
+
+always try to reduce the number of alignment lines
+and similar alignments( left, center, right)
+
+White Space: puts more emphasis on cost
+    less is more.
+
+Create acc to audience demands

@@ -1,0 +1,25 @@
+document.getElementById("myID").style.backgroundColor = "yellow";
+
+all values are added in the form of string
+
+
+document.getElementById("myID").classList;
+// gives classes applied to myID
+
+
+add, remove and toggle classes
+to work with components of html, css and js 
+document.getElementById("myID").classList.add("huge");
+
+
+getting and setting attributes of any element
+document.getElementById("myID").attributes;
+
+document.getElementById("myID").attributes("href");
+
+  get attributes
+document.getElementById("myID").getAttributes("href");
+
+  set attributes
+document.getElementById("myID").setAttributes("href", "https://www.bing.com");
+

@@ -1,0 +1,7 @@
+example: college renovation
+
+1. Simplicity
+2. Consistent : consistent design and functionality
+3. Reading Patterns: F or Z Pattern
+4. All platform design
+5. Don't use your powers for evil

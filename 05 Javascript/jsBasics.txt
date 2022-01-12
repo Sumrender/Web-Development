@@ -1,0 +1,36 @@
+playing with developer tools console on chrome.
+
+
+in developer tools go to sources '>>' option on top left hand side and select
+snippets. create a new snippet index.js
+
+instead of using alert keyword, use console.log(); for running a code.
+keywords:
+    alert("hello");
+    typeof(); tells the data tye of the variable put inside.
+    prompt(); similar to alert but allows input to be taken.
+
+. methods
+
+for string:
+    .length // without the ()
+    .slice(0,2) // [0,2)
+    .toUpperCase()
+    .toLowerCase()
+
+for creating function:
+    function func_name(parameters){
+
+    }
+
+random number generator:
+    using var n = Math.random();
+    point to note, it gives a number between 0 and 0.99999999
+
+n = Math.floor();    // rounds off the number to nearest whole number
+
+Arrays:
+    defined as-    var arr = [];  //no need to specify length
+
+    arr.include();  //to see if an element is in an array or not.
+    push and pop

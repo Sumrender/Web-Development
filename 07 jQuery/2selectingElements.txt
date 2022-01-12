@@ -1,0 +1,31 @@
+works similar to querySelector
+
+$("h1.my-title);
+
+Manipulating Styles with jQuery:
+  $("h1").css("color","green")
+  // for finding current color: console.log($("h1").css("color"));
+
+Adding class using jQuery:
+  $("h1").addClass("className");  // note: without . before className
+
+Removing class: $("h1").removeClass("className");
+
+Check if class present: .hasClass
+
+Manipulating Text with jQuery:
+  $("h1").text("texthfhh");   
+  //but it changes text of all h1 tags
+
+for innerHTML:  $("h1").html("<em>yo</em>");
+
+Manipulating Attributes:
+
+Attributes are properties of html elements/tags
+ex: href attribute of anchor tag
+    or src attribute of img tag 
+
+  $("a").attr("href","www.google.com");
+
+To see all the classes used on a element
+  $("div.my1").attr("class");

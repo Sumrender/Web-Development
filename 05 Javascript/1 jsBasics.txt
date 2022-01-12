@@ -1,0 +1,10 @@
+for creating variable: var myvar = 788;
+for creating constant: cont mycons = 3;
+instead of var, can also use let keyword
+
+for, while, if else functionality similar to C++
+
+creating function:
+    use function keyword, eg. function myFunc(){
+                                    // enter code;
+                                }

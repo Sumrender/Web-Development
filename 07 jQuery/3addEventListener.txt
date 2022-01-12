@@ -1,0 +1,12 @@
+Adding Event Listeners with jQuery:
+    $("button").click(function(){
+        // add the code required
+    })
+
+keybinding: 
+$(document or "body").keyPress(function(event){
+    $("h1").text(event.key); //changes h1 to the key pressed.
+})
+
+using on method:  $("body").on("mouseover", myFunction);
+   instead of mouseover, i can add other events i want my code to listen to

@@ -1,0 +1,4 @@
+You can use two method of time event in javascript.i.e.
+
+setInterval(): executes a function, over and over again, at specified time intervals
+setTimeout() : executes a function, once, after waiting a specified number of milliseconds

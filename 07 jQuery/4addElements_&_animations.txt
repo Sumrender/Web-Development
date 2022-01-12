@@ -1,0 +1,29 @@
+before and after Attributes:
+    used to add HTML tags in the document.
+    eg. $("h1").before("<button>click here</button>");
+prepend and append can also be used
+    $("h1").prepend("<button>click here</button>");
+but prepend will add button between the h1 tags, just before text content of h1.
+and vice versa for append
+
+eg. $("h1").before("<button>click here</button>");
+    // <button>click here</button> <h1>Hello</h1>
+    $("h1").prepend("<button>click here</button>");
+    // <h1><button>click here</button>Hello</h1>
+
+
+Removing elements:
+ex: for removing all buttons from HTML use 
+  $("button").remove();
+
+ANIMATIONS 
+Website Animations with jQuery:
+
+.hide() and .show() or .toggle()
+.fadeout() and .fadein() or .fadeToggle()
+.slideUp() and .slideDown() or slideToggle()
+
+.animate({opacity: 0.5}); // can only enter css rules if its numeric
+
+eg of effects usage: 
+$("h1").slideUp().slideDown().animate({margin: 20});

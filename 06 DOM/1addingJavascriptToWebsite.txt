@@ -1,0 +1,43 @@
+Adding javascript to website
+
+1.  inline: just enter the code inside a tag using onload keyword
+            eg. <body onload="alert('hello world!')">
+
+2. internal: using <script></script> tags and entering the code inside. 
+    or
+    <body onload="alert('Hello')">
+    </body>
+
+// to note when both inline and internal were present in my code and script was
+    inside body element, internal code showed first and inline one later.
+
+3. external: using src in script and entering path to .js file.
+
+$ css link tag should be in head.
+$ javascript tag should be at the bottom of the body tag, bcz if the js file is
+    making changes to an html object but it is below from where I added the
+    script tag, then there will be error.
+
+DOM: Document Object Model
+helps to use javascript in tandem with html.
+any element has properties and methods.
+eg.
+
+Selecting elements for DOM
+1. using query selector
+    document.querySelector("h1").innerHTML = "changed h1 content"
+    // only shows the first element, for all queries:
+    document.querySelectorAll();
+*****
+    for delving deeper in query selector,
+        if element is in hierarchical relation, then ("li h1");
+        if element is part of main selector, then(li.className);
+        // more practice required here.
+
+
+
+2. document.getElementsByTagName("li")[0]  //gives an array of all tags use []
+    // to specify which one.
+
+3. document.getElementsByClass("")[0];
+4. document.getElementByID;

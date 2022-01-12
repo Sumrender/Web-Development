@@ -1,0 +1,9 @@
+.addEventListener(type, func_to_exec, --something--)
+
+	anonymous func use in addEventListener:-
+.addEventListener(type, function(a, b){
+
+})
+
+Higher order functions: just functions that take functions as parameters
+

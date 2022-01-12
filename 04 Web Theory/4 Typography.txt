@@ -1,0 +1,17 @@
+Fonts always matter.
+
+serif has feet 
+- used to make text serious, imp, authoritative
+
+as we move towards modern serif types the diff. b/w thin and thick contrast increases.
+
+sans-serif
+- without feet
+
+use around 2 fonts on your site
+use similar fonts
+use contrasting font-types in heading and sub-heading as it makes it more interesting
+and use diff bold to highlight it.
+
+
+font: poppins

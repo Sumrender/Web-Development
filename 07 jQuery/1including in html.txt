@@ -1,0 +1,15 @@
+copy latest version from here
+    https://developers.google.com/speed/libraries#jquery
+
+for now:
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+note: script should be above index.js script tag in the html code.
+
+if you are including jquery in head element,
+then in index.js you can add the following piece
+of code.
+
+$(document).ready(function() {
+    $("h1").css("color", "red");
+})
