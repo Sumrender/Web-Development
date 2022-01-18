@@ -1,0 +1,30 @@
+ls: list
+ls -a: shows hidden files
+cd: change directory
+    eg. cd folder_name
+        to go back to parent folder: cd ~
+        to go back one level: cd ..
+
+option click access while pressing: alt + mouse;
+
+going to start of code: ctrl + a
+going to end of code: ctrl + e
+
+delete all code: ctrl + u
+
+using up and down arrow keys, we can use the code written before.
+
+-----------------------------------------------------------------------
+for creating folders: mkdir folder_name
+
+creating a new file: touch mytext.txt
+
+open file: start filename
+open using another application: start -a appName filename
+
+delete file: rm filename
+
+delete everything inside directory: rm *
+
+delete a directory: rm -r dirName
+command line utility for printing the current working directory.: pwd

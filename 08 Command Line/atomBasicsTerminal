@@ -1,0 +1,5 @@
+to open a file using atom:
+in terminal enter: 'atom fileName' and press enter
+
+to add a project folder, use:
+atom .  // then press enter.

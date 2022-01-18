@@ -1,0 +1,11 @@
+can be represented using
+
+function(){
+
+}
+
+or 
+
+() => {
+
+}

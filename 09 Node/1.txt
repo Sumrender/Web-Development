@@ -1,0 +1,3 @@
+to run .js files on hyper, first open hyper in that
+directory and type 
+    node fileName.js

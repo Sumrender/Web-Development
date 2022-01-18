@@ -1,0 +1,4 @@
+it is done using file system module. to use it first include it using:
+const fs = require("fs");
+
+now we will play with myfile.txt in this folder using file system in node

@@ -1,0 +1,9 @@
+open command line and go to directory where file is located
+in command line type: node fileName.js
+and press enter
+
+
+The Node REPL (Read Evaluation Print Loops)
+
+=>Use REPL by simply typing node in terminal and press enter
+=>To exit node REPL type '.exit' in terminal

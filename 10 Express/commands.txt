@@ -1,0 +1,11 @@
+to initialise server
+  npm init 
+
+to install express
+  npm install express --save
+
+to use nodemon
+  nodemon filename.js
+
+to read post data from form, need package body parser
+  npm install body-parser;

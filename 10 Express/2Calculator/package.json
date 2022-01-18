@@ -1,0 +1,20 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "basic calculator web app",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calculator",
+    "web-app",
+    "first-web-app"
+  ],
+  "author": "Sumrender Singh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  }
+}

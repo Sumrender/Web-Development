@@ -1,0 +1,5 @@
+stands for node package manager.
+used to install external packages
+
+for every project, do:
+	npm init

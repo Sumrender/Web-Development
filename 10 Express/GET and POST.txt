@@ -1,0 +1,1 @@
+GET carries request parameter appended in URL string while POST carries request parameter in message body

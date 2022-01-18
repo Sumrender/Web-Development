@@ -1,0 +1,4 @@
+to install node modules globally -
+
+for example, if i am installing nodemon then in shell type :-
+    npm i -g nodemon
