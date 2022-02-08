@@ -1,0 +1,78 @@
+// git --version: mostly used to see if git is installed on system
+
+### Configuring Your Name & Email
+
+In your terminal, run the following commands to identify yourself with Git:
+
+// git config --global user.name "Your Name"
+// git config --global user.email "your@email.com"
+
+Replace the values inside the quotes with your name and email address.
+
+
+// git init: Git initialization
+
+    To start tracking changes, we first need to move the file to staging area.
+
+// git status: shows status of local repository, all files with red font are
+    those which are not tracked.
+
+    to start tracking we need to first move the file to tracking area.
+    
+// git add fileName: moves file to the staging area/tracking area.
+
+// git add . :to move all untracked files to the staging area.
+
+// git commit -m "Enter message here": used to commit file.
+                                    -m allows sending a message.
+
+// git log: to see your log
+
+// git diff: to see the difference between present file and the one we commited
+            earlier
+
+// git checkout fileName: to revert or rollback to the last commit
+
+        push an existing repository from the command line:
+
+// git branch -d BranchName: to delete a branch
+// git rm --cached -r .  : git remove all files from staging area which are yet to
+                        be commited
+
+// git clone repoURL: clone a repository from github
+
+// git branch BranchName: to create a new branch
+// git branch : to see all the branches present
+
+// git checkout BranchName: to use the BranchName instead of master branch
+
+
+// git remote add origin <project link>
+// git push -u origin master
+
+--------------------------------------------------------------------------------
+# This gets a copy of the remote repository to your PC (login will probably be required)
+# Replace the URL with the actual URL of the repo
+git clone https://gitlab.com/gitlab-tests/sample-project.git
+
+# get into the repository (replace with the repository's name)
+cd sample-project
+
+# get your code where it should go
+cp <where your local code is> <where it should be in the repo>
+
+# Get to the branch (use the command that applies to your case!)
+# Create a new branch if it does note exist on the remote
+git checkout -b <branch-name>
+# Check out the branch, if it already exists
+git checkout <branch-name>
+
+# Add the new code
+git add .
+git commit -m "<add a meaningful comment here>"
+
+# Push the code to the remote repository (use the command that applies to your case!)
+# like this if the branch does not exist on the remote
+git push --set-upstream origin <branch-name>
+# like this if the branch already exists on the remote
+git push origin <branch-name>

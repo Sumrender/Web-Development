@@ -1,0 +1,3 @@
+In order for our server to serve up static files such
+as CSS and Images, then we need to use a express
+function called static

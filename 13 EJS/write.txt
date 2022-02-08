@@ -1,0 +1,11 @@
+res.send(); // can only be sent once in the get request.
+
+res.write(); // can be used to send multiple pieces of html.
+
+html file is passed using:
+res.sendFile(__dirname + "/index.html");
+
+// for its css and other static files we have to use 
+app.use(express.static("public"));
+//where public is the name of folder and is considered root so in html
+// can directly link by "/style.css"

@@ -1,0 +1,14 @@
+API stands for Application Programming Interfaces and is program or code
+made to CREATE SOFTWARE(ex: jQuery) or INTERACT with EXTERNAL systems.
+
+  API has:
+> Endpoint         = starting url of api
+> Paths            = further branching ex: (api.student.com/IT) student is endpoint and IT is path 
+> Parameters       = for custom queries, in which key:value pair are passed as parameters in the API (api.student.com/Comp?age=19&score=9)
+> Authentication
+
+Made the foolish mistake of the century:
+  tried to run the web app using live server.
+fool we have allotted port 3000 and made our own server, should have simply used 
+      localhost:3000
+

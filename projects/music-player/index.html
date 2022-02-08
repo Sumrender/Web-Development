@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Music Player</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/62f2a247b2.js" crossorigin="anonymous"></script>
+    </head>        <!-- head section done -->
+    <body>
+        <nav>
+            <ul>
+                <li class="brand"><img src="logo.png" alt="music-logo">MyPlayer</li>
+                <li>Home</li>
+                <li>Popular Songs</li>
+                <li>About</li>
+                <li>Contact-Us</li>
+            </ul>
+        </nav>    <!-- nav section done  -->
+<div class="container">
+    <div class="song-list">
+        <h1>My Songs </h1>
+        <div>
+            <div class="song-item">
+                <img src="covers/1.jpg" alt="1">
+                <span>Let me Love You</span>
+                <span class="song-list-play"> <span class="timestamp">05:34 <i class="far fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="song-item">
+                <img src="covers/1.jpg" alt="1">
+                <span>Let me Love You</span>
+                <span class="song-list-play"> <span class="timestamp">05:34 <i class="far fa-2x fa-play-circle"></i></span></span>
+            </div>
+            <div class="song-item">
+                <img src="covers/1.jpg" alt="1">
+                <span>Let me Love You</span>
+                <span class="song-list-play"> <span class="timestamp">05:34 <i class="far fa-2x fa-play-circle"></i></span></span>
+            </div>
+        </div>
+
+    </div>
+    <div class="song-banner">
+    </div>
+</div>
+<div class="bottom">
+    <input type="range" name="range" id="myProgressBar" value="0" min="0" max="100">
+    <div class="icons">
+        <!-- fontawesome icons -->
+        <i class="fas fa-3x fa-step-backward"></i>
+        <i class="far fa-3x fa-play-circle" id="masterPlay"></i>
+        <i class="fas fa-3x fa-step-forward"></i>
+    </div>
+    <div class="song-info">
+        <img src="playing.gif" width="43px" alt="gif" id="gif">
+        Let me Love You, Justin Bieber
+    </div>
+</div>   
+        <script src="script.js" charset="utf-8"></script>
+    </body>
+</html>
