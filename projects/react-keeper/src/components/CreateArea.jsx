@@ -17,7 +17,12 @@ function CreateArea(props) {
     setNote(prevNote => {
       return {
         ...prevNote,
-        [name]: value
+        [name]: value  // this is important, to note...
+        // this function is doing the work for two variables
+        // title and content, to prevent js to consider 
+        // name:value as an object and to make sure that
+        // name gets its value updated [name] is written
+        // like this
       };
     });
   }
